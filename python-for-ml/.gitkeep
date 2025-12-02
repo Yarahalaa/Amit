@@ -1,0 +1,13 @@
+# simple_model.py
+def train_model(data):
+    """Placeholder function to simulate a machine learning model training process."""
+    print("Starting model training with provided data...")
+    # In a real project, training logic would go here
+    model_output = {"accuracy": 0.92, "epochs": 10}
+    print("Model training complete.")
+    return model_output
+
+if __name__ == "__main__":
+    dummy_data = [1, 2, 3, 4, 5]
+    result = train_model(dummy_data)
+    print(f"Training Result: {result}")
